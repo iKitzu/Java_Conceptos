@@ -13,7 +13,7 @@ public class Vehiculo_Turismo extends Vehiculo {
     
     private int nPuertas;
     
-    public VehiculoTurismo(int nPuertas, String matricula, String marca, String modelo){
+    public Vehiculo_Turismo(int nPuertas, String matricula, String marca, String modelo){
         super(matricula, marca, modelo);
         this.nPuertas=nPuertas;
     }
