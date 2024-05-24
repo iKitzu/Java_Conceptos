@@ -14,10 +14,10 @@ public class Clase2 {
         Clase1 objeto1=new Clase1();
         //
         objeto1.setEdad(10);
-        System.out.println("La edad es: "+objeto1.getEdad());
+        System.out.println("Hola: "+objeto1.getEdad());
         
         objeto1.setNombre("Pedrito");
-        System.out.println("El nombre es: "+objeto1.getNombre());
+        System.out.println("Su edad es: "+objeto1.getNombre());
     }
     
 }
